@@ -1,0 +1,10 @@
+.Input {
+	&::placeholder {
+		color: var(--bv-violet-60);
+	}
+}
+
+.Textarea {
+	resize: none;
+	height: 140px;
+}
