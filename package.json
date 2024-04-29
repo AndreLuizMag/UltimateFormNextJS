@@ -24,6 +24,7 @@
     "react-hook-form": "^7.51.3",
     "sass": "^1.75.0",
     "typescript": "^5",
+    "validations-br": "^1.4.0",
     "zod": "^3.23.4"
   }
 }
