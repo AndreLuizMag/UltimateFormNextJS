@@ -1,10 +1,7 @@
 import { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import '@/styles/main.scss'
-import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
 	title: 'U.F.N',
@@ -18,9 +15,8 @@ const RootLayout = ({
 }>) => {
 	return (
 		<html lang='en'>
-			<body className={inter.className}>
-				{children} <Analytics />
-			</body>
+			{children}
+			<Analytics />
 		</html>
 	)
 }
